@@ -33,7 +33,7 @@ const Result = () => {
         }
         dispatch(lose())
         setResultOfMatch(`Computer WON`)
-        setReason(`${players.myChoice} beat ${players.computerChoice}`)
+        setReason(`${players.computerChoice} beat ${players.myChoice}`)
     }, [players.computerChoice])
     return (
         <div className="result">
